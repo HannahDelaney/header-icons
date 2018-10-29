@@ -7,3 +7,40 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  background-color: #d05c2e;
+  padding: .5rem 0;
+}
+
+img {
+  width: 40px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.navigation {
+  display: flex;
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #d05c2e;
+  margin: 0;
+  padding: .4rem 0;
+}
+
+ol li {
+  list-style-type: none;
+}
+
+ol li:hover {
+  background-color: #a63f38;
+}
